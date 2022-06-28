@@ -1,9 +1,10 @@
 ---
-layout: page
+layout: publications
 permalink: /publications/
 title: Publications
-description:
+description: 
 years: [2022, 2021]
+#yearsp: [2022]
 nav: true
 ---
 

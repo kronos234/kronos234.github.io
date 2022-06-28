@@ -71,7 +71,7 @@ blockquote {
 
 @media (min-width: 576px) {
   .profile {
-    width: 30%;
+    width: 40%;
     .address {
       p { display: block; }
     }
@@ -375,7 +375,9 @@ footer.sticky-bottom {
   }
 }
 
-
+.roundedcorners{
+    border-radius: 10%;
+}
 // Publications
 
 .publications {

@@ -30,6 +30,7 @@ d-article {
   }
   b i {
     display: inline;
+    color: $my-color
   }
 
   d-contents {
@@ -44,13 +45,13 @@ d-article {
     width: calc(max(70%, 300px));
     margin-right: 0px;
     margin-top:  0em;
-    display: grid;
-    grid-template-columns:
-      minmax(8px, 1fr) [toc] auto
+    display: grid;      
+    grid-template-columns: 
+      minmax(8px, 1fr) [toc] auto 
       minmax(8px, 1fr) [toc-line] 1px
       minmax(32px, 2fr);
-
-    nav {
+    
+    nav {      
       grid-column: toc;
       a {
         border-bottom: none !important;
@@ -86,10 +87,6 @@ d-article {
       border-right: 1px solid var(--global-divider-color);
       grid-column: toc-line;
     }
-  }
-
-  d-footnote {
-    scroll-margin-top: 66px;
   }
 }
 
